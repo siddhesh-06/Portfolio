@@ -1,0 +1,153 @@
+
+/*color:#AEE1FF Light blue*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    font-size: 1000px;
+}
+
+/*==== HOME-PAGE ====*/
+
+.hm-1{
+    padding-top: 15%;
+    font-size: 90px;
+    color: #1A5276 ;
+}
+
+.hm-head-1{
+    font-size: 50px;
+    font-family:Fresh Pineapple;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.hm-head-2{
+    font-size: 36px;
+    font-family: Amaranth;
+    color: #D3D0CB;
+    text-align: center;
+}
+
+
+
+
+.social-icons{
+    font-size: 3rem;
+}
+
+
+.social-li{
+    font-size: 100%;
+}
+
+.fa-github-square{
+    color: black;
+}
+
+.fa-linkedin-square{
+    color: #1A5276;
+}
+
+.fa-instagram{
+    color: #f20089;
+}
+
+.fa-file-text{
+    padding-right: 5px;
+}
+
+/*==== ABOUT-PAGE ====*/
+
+/*==== WEB ====*/
+
+.heading-about{
+    font-family: Amaranth;
+    color: #1A5276 ;
+    font-size: 4rem;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+
+.about-ul{
+    list-style: none;
+    display: flex;
+}
+
+.about-skills{
+    font-size: 2.5rem;
+    font-family: Amaranth;
+    color: #1A5276;
+}
+
+.about-icon-ul{
+    list-style: none;
+    font-size: 90%;
+}
+
+
+
+.html,
+.css,
+.js,
+.react,
+.node,
+.dj,
+.mdb,
+.pdb{
+    padding-right: .9rem;
+}
+
+.about-info p{
+    font-size: 1.2rem;
+    font-family: Amaranth;
+    padding-top: 1rem;
+}
+
+
+
+.heading-about ul li:first-child{
+    word-spacing: 5px;
+    letter-spacing: 4px;
+}
+
+.heading-about ul li:first-child::after{
+    content: "";
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+    height: 3px;
+    background-color: #AEE1FF;
+}
+
+
+/*==== Programing ====*/
+
+.pr-lg{
+    margin-top: 15%;
+    margin-bottom: 2%;
+}
+.footer-text{
+    color: rgb(127, 141, 170);
+    font-size: 1.2rem;
+}
+
+.cpp,
+.java,
+.python{
+    padding-right: .9rem;
+    font-size: 2.8rem;
+}
+
+/* .card{
+    margin-bottom: 10% !important;
+} */
