@@ -148,7 +148,7 @@ h1{
 }
 .footer-text{
     color: rgb(127, 141, 170);
-    font-size: 1.2rem;
+    font-size: 100%;
 }
 
 .cpp,
