@@ -105,3 +105,21 @@
     font-size: 26.9px;
   }
 }
+
+@media only screen and (max-width: 771px) {
+  .ml15{
+    padding-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .ml15{
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 417px) {
+  .ml15{
+    padding-left: 7%;
+  }
+}
