@@ -74,6 +74,28 @@ h1{
     padding-right: 5px;
 }
 
+/*==== ANIMATION ====*/
+
+.ml15 .word {
+  display: inline-block;
+}
+
+.ml7 {
+    position: relative;
+    font-size: 1em;
+  }
+  .ml7 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+  }
+
+
+
 /*==== ABOUT-PAGE ====*/
 
 /*==== WEB ====*/
