@@ -9,38 +9,6 @@
     src: url(./Resources/fonts/Amaranth-Regular.ttf);
   }
 
-/*Animatin-Effects*/
-
-@keyframes moveInLeft {
-    0% {
-      opacity: 0;
-      transform: translateX(-10rem); }
-    80% {
-      transform: translateX(1rem); }
-    100% {
-      opacity: 1;
-      transform: translate(0); } }
-  
-  @keyframes moveInRight {
-    0% {
-      opacity: 0;
-      transform: translateX(10rem); }
-    80% {
-      transform: translateX(-1rem); }
-    100% {
-      opacity: 1;
-      transform: translate(0); } }
-  
-  @keyframes moveInBottom {
-    0% {
-      opacity: 0;
-      transform: translateY(3rem); }
-    100% {
-      opacity: 1;
-      transform: translate(0); } }
-  
-
-
 /*color:#AEE1FF Light blue*/
 *{
     padding: 0;
@@ -53,14 +21,6 @@ h1{
 }
 
 /*==== HOME-PAGE ====*/
-
-.heading-about{
-    animation: moveInBottom 1s ease-out;
-}
-
-#home-page{
-    animation: moveInBottom 1s ease-out;
-}
 
 .hm-1{
     padding-top: 15%;
@@ -86,17 +46,6 @@ h1{
     text-align: center;
 }
 
-.svg-0{
-    animation: moveInRight 2s ease-out;
-}
-
-.svg-1{
-    animation: moveInLeft 1.5s ease-out;
-}
-
-.svg-2{
-    animation: moveInRight 1.5s ease-out;
-}
 
 .social-icons{
     font-size: 3rem;
@@ -125,13 +74,13 @@ h1{
 
 /*==== ANIMATION ====*/
 
-.about-main{
+/* .about-main{
     animation: moveInRight 1s ease-out;
 }
 
 .about-programming{
     animation: moveInLeft 1s ease-out !important;
-}
+} */
 
 .ml15 .word {
   display: inline-block;
