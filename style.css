@@ -48,9 +48,17 @@ h1{
 
 
 .social-icons{
+    justify-content: center;
+    align-items: center;
     font-size: 3rem;
 }
 
+.social-icon{
+    height: 45px !important;
+    width: 45px !important;
+    color: rgb(37, 116, 37);
+    margin-bottom: 10px;
+}
 
 .social-li{
     font-size: 100%;
@@ -146,12 +154,20 @@ h1{
     padding-right: .9rem;
 }
 
+.icon-text{
+    font-size: 25px;
+    display: none;
+}
+
+.html:hover + .icon-text{
+    display: block;
+}
+
 .about-info p{
     font-size: 1.2rem;
     font-family: Amaranth;
     padding-top: 1rem;
 }
-
 
 
 .heading-about ul li:first-child{
@@ -170,6 +186,18 @@ h1{
     background-color: #AEE1FF;
 }
 
+.stack-icons{
+    align-items:center;
+    justify-content:center;
+    padding-bottom: 10px;
+}
+.stack-icons--md{
+    color: green;
+}
+.iconify{
+    width: 50px; 
+    height: 50px;
+}
 
 /*==== Programing ====*/
 
