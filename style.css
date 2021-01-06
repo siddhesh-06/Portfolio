@@ -1,97 +1,96 @@
 /*Fonts*/
 @font-face {
-    font-family:Fresh Pineapple;
-    src: url(./Resources/fonts/Fresh\ Pineapple.ttf);
-  }
+  font-family: Fresh Pineapple;
+  src: url(./Resources/fonts/Fresh\ Pineapple.ttf);
+}
 
-  @font-face {
-    font-family:Amaranth;
-    src: url(./Resources/fonts/Amaranth-Regular.ttf);
-  }
+@font-face {
+  font-family: Amaranth;
+  src: url(./Resources/fonts/Amaranth-Regular.ttf);
+}
 
-  @font-face {
-    font-family:Agustina Demo;
-    src: url(./Resources/fonts/Agustina\ Demo.ttf);
-  }
+@font-face {
+  font-family: Agustina Demo;
+  src: url(./Resources/fonts/Agustina\ Demo.ttf);
+}
 
 /*color:#AEE1FF Light blue*/
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    max-width: 100vw;
+html{
+    scroll-behavior: smooth;
 }
 
-h1{
-    font-size: 1000px;
+h1 {
+  font-size: 1000px;
 }
 
-.nav-title{
-    font-family: Agustina Demo;
-    font-size: 2rem;
-    color: #1A5276 !important;
+.nav-title {
+  font-family: Agustina Demo;
+  font-size: 2rem;
+  color: #1a5276 !important;
 }
 
 /*==== HOME-PAGE ====*/
 
-.hm-1{
-    padding-top: 15%;
-    font-size: 90px;
-    color: #1A5276 ;
+.hm-1 {
+  padding-top: 15%;
+  font-size: 90px;
+  color: #1a5276;
 }
 
-.hm-head-1{
-    font-size: 50px;
-    font-family:Fresh Pineapple;
-    word-spacing: 5px;
-    letter-spacing: 4px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+.hm-head-1 {
+  font-size: 50px;
+  font-family: Fresh Pineapple;
+  word-spacing: 5px;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.hm-head-2{
-    font-size: 36px;
-    font-family: Amaranth;
-    color: #D3D0CB;
-    text-align: center;
+.hm-head-2 {
+  font-size: 36px;
+  font-family: Amaranth;
+  color: #d3d0cb;
+  text-align: center;
 }
 
-
-.social-icons{
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
+.social-icons {
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
 }
 
-.social-icon{
-    height: 45px !important;
-    width: 45px !important;
-    color: rgb(37, 116, 37);
-    margin-bottom: 10px;
+.social-icon {
+  height: 45px !important;
+  width: 45px !important;
+  color: #32c766;
+  margin-bottom: 10px;
 }
 
-.social-li{
-    font-size: 100%;
+.social-li {
+  font-size: 100%;
 }
 
-.fa-github-square{
-    color: black;
+.fa-github-square {
+  color: black;
 }
 
-.fa-linkedin-square{
-    color: #1A5276;
+.fa-linkedin-square {
+  color: #1a5276;
 }
 
-.fa-instagram{
-    color: #f20089;
+.fa-instagram {
+  color: #f20089;
 }
 
-.fa-file-text{
-    padding-right: 5px;
+.fa-file-text {
+  padding-right: 5px;
 }
 
 /*==== ANIMATION ====*/
@@ -109,53 +108,50 @@ h1{
 }
 
 .ml7 {
-    position: relative;
-    font-size: 1em;
-  }
-  .ml7 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-  }
-  .ml7 .letter {
-    transform-origin: 0 100%;
-    display: inline-block;
-  }
-
-
-
-  
-
+  position: relative;
+  font-size: 1em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+}
 
 /*==== ABOUT-PAGE ====*/
 
 /*==== WEB ====*/
 
-.heading-about{
-    font-family: Amaranth;
-    color: #1A5276 ;
-    font-size: 4rem;
-    padding-top: 8%;
-    padding-bottom: 10%;
+.heading-about {
+  font-family: Amaranth;
+  color: #1a5276;
+  font-size: 4rem;
+  padding-top: 8%;
+  padding-bottom: 10%;
 }
 
-.about-ul{
-    list-style: none;
-    display: flex;
+.about-ul {
+  list-style: none;
+  display: flex;
 }
 
-.about-skills{
-    font-size: 2.5rem;
-    font-family: Amaranth;
-    color: #1A5276;
+.about-skills {
+  font-size: 2.5rem;
+  font-family: Amaranth;
+  color: #1a5276;
 }
 
-.about-icon-ul{
-    list-style: none;
-    font-size: 90%;
+.about-icon-ul {
+  list-style: none;
+  font-size: 90%;
 }
 
-
+.about-icon-ul .tech-icon svg{
+    padding:1px;
+}
 
 .html,
 .css,
@@ -164,83 +160,81 @@ h1{
 .node,
 .dj,
 .mdb,
-.pdb{
-    padding-right: .9rem;
+.pdb {
+  padding-right: 0.9rem;
 }
 
-.icon-text{
-    font-size: 25px;
-    display: none;
+.icon-text {
+  font-size: 25px;
+  display: none;
 }
 
-.html:hover + .icon-text{
-    display: block;
+.html:hover + .icon-text {
+  display: block;
 }
 
-.about-info p{
-    font-size: 1.2rem;
-    font-family: Amaranth;
-    padding-top: 1rem;
+.about-info p {
+  font-size: 1.2rem;
+  font-family: Amaranth;
+  padding-top: 1rem;
 }
 
-
-.heading-about ul li:first-child{
-    word-spacing: 5px;
-    letter-spacing: 4px;
+.heading-about ul li:first-child {
+  word-spacing: 5px;
+  letter-spacing: 4px;
 }
 
-.heading-about ul li:first-child::after{
-    content: "";
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    display: block;
-    height: 3px;
-    background-color: #AEE1FF;
+.heading-about ul li:first-child::after {
+  content: "";
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  display: block;
+  height: 3px;
+  background-color: #aee1ff;
 }
 
-.stack-icons{
-    align-items:center;
-    justify-content:center;
-    padding-bottom: 10px;
+.stack-icons {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
 }
-.stack-icons--md{
-    color: green;
-}
-
-
-.iconify{
-    width: 50px; 
-    height: 50px;
+.stack-icons--md {
+  color: green;
 }
 
-.stack-icons--js{
-    width: 45px; 
-    height: 45px;
+.iconify {
+  width: 50px;
+  height: 50px;
 }
 
-.stack-icons--rdx{
-    width: 40px; 
-    height: 40px;
+.stack-icons--js {
+  width: 45px;
+  height: 45px;
+}
+
+.stack-icons--rdx {
+  width: 40px;
+  height: 40px;
 }
 
 /*==== Programing ====*/
 
-.pr-lg{
-    margin-top: 15%;
-    margin-bottom: 2%;
+.pr-lg {
+  margin-top: 15%;
+  margin-bottom: 2%;
 }
-.footer-text{
-    color: rgb(127, 141, 170);
-    font-size: 100%;
+.footer-text {
+  color: rgb(127, 141, 170);
+  font-size: 100%;
 }
 
 .cpp,
 .java,
-.python{
-    padding-right: .9rem;
-    font-size: 2.8rem;
+.python {
+  padding-right: 0.9rem;
+  font-size: 2.8rem;
 }
 
 /* .card{

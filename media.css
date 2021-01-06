@@ -37,14 +37,13 @@
   .node,
   .dj,
   .mdb,
-  .pdb{
+  .pdb {
     font-size: 1.8rem;
   }
 
-  
   .cpp,
   .java,
-  .python{
+  .python {
     font-size: 2.5rem;
   }
 }
@@ -80,7 +79,7 @@
   .heading-about {
     font-family: Amaranth;
     color: #1a5276;
-    font-size: 2.5rem;
+    font-size: 6.5rem;
     padding-top: 8%;
     padding-bottom: 10%;
   }
@@ -107,19 +106,25 @@
 }
 
 @media only screen and (max-width: 771px) {
-  .ml15{
+  .ml15 {
     padding-left: 20%;
   }
 }
 
+@media (max-width: 768px) {
+  .hideOverflowOnMobile {
+    overflow: hidden;
+  }
+}
+
 @media only screen and (max-width: 520px) {
-  .ml15{
+  .ml15 {
     padding-left: 10%;
   }
 }
 
 @media only screen and (max-width: 417px) {
-  .ml15{
+  .ml15 {
     padding-left: 7%;
   }
 }
