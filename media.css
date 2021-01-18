@@ -59,6 +59,9 @@
 }
 
 @media only screen and (max-width: 991px) {
+  a.nav-link:before{
+    width: 10%;
+  }
   .hm-head-1 {
     font-size: 30px;
     font-family: Fresh Pineapple;
