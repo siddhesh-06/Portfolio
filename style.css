@@ -14,7 +14,10 @@
   src: url(./Resources/fonts/OneSignature.ttf);
 }
 
-
+#home-page {
+  background-image:linear-gradient(rgba(255, 253, 253, 0.9),rgba(255, 253, 253, 0.9)) ,url("./Resources/images/doodle_bg.jpg");
+  background-attachment: fixed;
+}
 
 /*color:#AEE1FF Light blue*/
 * {
@@ -122,7 +125,6 @@ a.nav-link:hover:before {
 }
 
 /*==== ANIMATION ====*/
-
 
 .ml15 .word {
   display: inline-block;

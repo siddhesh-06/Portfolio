@@ -60,7 +60,7 @@
 
 @media only screen and (max-width: 991px) {
   a.nav-link:before{
-    width: 10%;
+    width: 20%;
   }
   .hm-head-1 {
     font-size: 30px;
