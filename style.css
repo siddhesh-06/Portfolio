@@ -29,6 +29,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: #FFFDFD !important;
+}
+
 h1 {
   font-size: 1000px;
 }
@@ -39,6 +43,12 @@ h1 {
   font-weight: 600;
   color: #1a5276 !important;
 }
+
+#anim{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .nav-item {
   font-size: 1rem;
 }
